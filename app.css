@@ -1,0 +1,48 @@
+body{
+    background-color: #3a5a40;
+    font-weight: 500;
+    font-family: monospace;
+}
+h1{
+    font-weight: 700;
+    font-family: system-ui;
+}
+h3{
+    font-weight: 600;
+    font-family: system-ui;
+}
+nav{
+    font-size: 1.2em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #ccd5ae;
+}
+section{
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+span{
+    padding-left: 10px;
+}
+
+.bg-custom{
+    background-color: #fefae08a;
+}
+.dot{
+    font-size: 2em;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icons-border{
+    /* border:2px solid black; */
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#color-income{
+    color: #3a5a40;
+}
+#color-expenses{
+    color: #ccd5ae;
+}
