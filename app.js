@@ -1,18 +1,18 @@
 let totalCost = 0;
-let rent = 0;
-let expenses = 0;
-let groceries = 0;
-let cellphone = 0;
-let personalCare = 0;
-let subscriptions = 0;
-let healthInsurance = 0;
-let carGas = 0;
-let carInsurance = 0;
-let carPayment = 0;
-let extra = 0;
+let rent = Number(document.getElementById("rentInput").value);
+let expenses = Number(document.getElementById("expensesInput").value);
+let groceries = Number(document.getElementById("groceriesInput").value);
+let cellphone = Number(document.getElementById("cellphoneInput").value);
+let personalCare = Number(document.getElementById("personalCareInput").value);
+let subscriptions = Number(document.getElementById("subscriptionsInput").value);
+let healthInsurance = Number(document.getElementById("healthInsuranceInput").value);
+let carGas = Number(document.getElementById("carGasInput").value);
+let carInsurance = Number(document.getElementById("carInsuranceInput").value);
+let carPayment = Number(document.getElementById("carPaymentInput").value);
+let extra = Number(document.getElementById("extraInput").value);
 
 document.getElementById("rentInput").onchange = function () {
-    rent = Number(document.getElementById("rentInput").value)
+    rent = Number(document.getElementById("rentInput").value);
     calcTotal();
 }
 document.getElementById("expensesInput").onchange = function () {
